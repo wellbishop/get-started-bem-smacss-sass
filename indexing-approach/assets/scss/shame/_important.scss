@@ -1,0 +1,5 @@
+.list {
+  @include element(item) {
+    color: #666 !important;
+  }
+}

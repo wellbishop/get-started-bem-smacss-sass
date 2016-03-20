@@ -1,0 +1,243 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  background: transparent;
+  border: 0;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  vertical-align: baseline; }
+
+body {
+  line-height: 1; }
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+a {
+  background: transparent;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline; }
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input,
+select {
+  vertical-align: middle; }
+
+img {
+  max-width: 100%; }
+
+.body, form {
+  margin: 0;
+  padding: 0; }
+
+ul {
+  list-style-type: none; }
+
+a {
+  color: #039;
+  text-decoration: none; }
+
+.boxes__box, .boxes__box--bigger, .boxes__box--full {
+  display: inline-block;
+  width: calc(100% / 3); }
+
+.list__item, .list__item--title {
+  color: #333;
+  display: block;
+  margin-bottom: 12px;
+  padding: 8px 4px; }
+
+.header, .main, .footer {
+  max-width: 1024px; }
+
+.header {
+  margin: auto; }
+
+.main {
+  line-height: 22px;
+  margin: 10px auto;
+  padding: 10px 22px; }
+
+.footer {
+  margin: 10px auto 0; }
+
+@font-face {
+  font-family: "Lato Regular";
+  src: url("../fonts/lato-regular.eot");
+  src: url("../fonts/lato-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/lato-regular.woff2") format("woff2"), url("../fonts/lato-regular.woff") format("woff"), url("../fonts/lato-regular.ttf") format("truetype"), url("../fonts/lato-regular.svg#latolight") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "Lato Bold";
+  src: url("../fonts/lato-bold.eot");
+  src: url("../fonts/lato-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/lato-bold.woff2") format("woff2"), url("../fonts/lato-bold.woff") format("woff"), url("../fonts/lato-bold.ttf") format("truetype"), url("../fonts/lato-bold.svg#latolight") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "Lato Black";
+  src: url("../fonts/lato-black.eot");
+  src: url("../fonts/lato-black.eot?#iefix") format("embedded-opentype"), url("../fonts/lato-black.woff2") format("woff2"), url("../fonts/lato-black.woff") format("woff"), url("../fonts/lato-black.ttf") format("truetype"), url("../fonts/lato-black.svg#latolight") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "Lato Light";
+  src: url("../fonts/lato-light.eot");
+  src: url("../fonts/lato-light.eot?#iefix") format("embedded-opentype"), url("../fonts/lato-light.woff2") format("woff2"), url("../fonts/lato-light.woff") format("woff"), url("../fonts/lato-light.ttf") format("truetype"), url("../fonts/lato-light.svg#latolight") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+.boxes {
+  font-size: 0; }
+  .boxes__box--bigger {
+    width: calc(100% / 3 * 2); }
+  .boxes__box--full {
+    width: 100%; }
+
+.list {
+  background-color: gray; }
+  .list__item--title {
+    color: #111; }
+  .list__item__link {
+    font-size: 14px; }
+
+.boxes:hover .boxes__box {
+  opacity: .20; }
+.boxes__box:hover {
+  opacity: 1; }
+
+.list__item__link:hover {
+  background-color: #eee; }
+
+#breadcrumbs li + li + li + li div a {
+  color: aquamarine; }
+
+.list__item {
+  color: #666 !important; }
+
+/*# sourceMappingURL=application.css.map */

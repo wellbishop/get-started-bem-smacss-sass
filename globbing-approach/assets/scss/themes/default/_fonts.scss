@@ -1,0 +1,9 @@
+@include getfontface('Lato Regular', 'lato-regular');
+@include getfontface('Lato Bold', 'lato-bold');
+@include getfontface('Lato Black', 'lato-black');
+@include getfontface('Lato Light', 'lato-light');
+
+$default-family:       'Lato Regular';
+$default-bold-family:  'Lato Bold';
+$default-black-family: 'Lato Black';
+$default-light-family: 'Lato Light';

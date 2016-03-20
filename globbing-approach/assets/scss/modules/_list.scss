@@ -1,0 +1,16 @@
+.list {
+  background-color: gray;
+
+  @include element(item) {
+    @extend %list__item--default;
+
+    @include modifier(title) {
+      @extend %list__item--default;
+      color: #111;
+    }
+
+    @include element(link) {
+      font-size: 14px;
+    }
+  }
+}

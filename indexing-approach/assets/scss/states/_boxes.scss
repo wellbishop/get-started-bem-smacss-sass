@@ -1,0 +1,15 @@
+.boxes {
+  &:hover {
+    .boxes {
+      @include element(box) {
+        opacity: .20;
+      }
+    }
+  }
+
+  @include element(box) {
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.list {
+  @include element(item) {
+    @include element(link) {
+      &:hover {
+        background-color: #eee;
+      }
+    }
+  }
+}

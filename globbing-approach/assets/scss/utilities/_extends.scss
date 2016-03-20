@@ -1,0 +1,15 @@
+%box--default {
+  display: inline-block;
+  width: calc(100% / 3);
+}
+
+%list__item--default {
+  color: #333;
+  display: block;
+  margin-bottom: 12px;
+  padding: 8px 4px;
+}
+
+%max-width--default {
+  max-width: 1024px;
+}

@@ -1,0 +1,17 @@
+.boxes {
+  font-size: 0;
+
+  @include element(box) {
+    @extend %box--default;
+
+    @include modifier(bigger) {
+      @extend %box--default;
+      width: calc(100% / 3 * 2);
+    }
+
+    @include modifier(full) {
+      @extend %box--default;
+      width: 100%;
+    }
+  }
+}
