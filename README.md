@@ -9,7 +9,7 @@ There are two approaches to import the SCSS files:
 
 1. **Index files** *(recommended)*:
 
-    Every subdirectory have an `_index.scss` partial file. Each of this partials is responsible to import the other partials inside that directory.
+    Every subdirectory has an `_index.scss` partial file. Each of this partials is responsible to import the other partials inside that directory.
 
     ```scss
     @import "base";
